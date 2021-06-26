@@ -39,55 +39,20 @@ class CardsFooter extends React.Component {
     return (
       <>
         <footer className="footer has-cards">
-          <Container className="container-lg">
-            <Row>
-              <Col className="mb-5 mb-md-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/landing-page">
-                    <CardImg
-                      alt="..."
-                      src={landing}
-                    />
-                  </Link>
-                </Card>
-              </Col>
-              <Col className="mb-5 mb-lg-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/profile-page">
-                    <CardImg
-                      alt="..."
-                      src={profile}
-                    />
-                  </Link>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
+        
           <Container>
             <Row className="row-grid align-items-center my-md">
               <Col lg="6">
                 <h3 className="text-primary font-weight-light mb-2">
-                  Thank you for supporting us!
+                  Thank you for your interest in me!
                 </h3>
                 <h4 className="mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.
                 </h4>
               </Col>
               <Col className="text-lg-center btn-wrapper" lg="6">
-                <Button
-                  className="btn-icon-only rounded-circle"
-                  color="twitter"
-                  href="https://twitter.com/creativetim"
-                  id="tooltip475038074"
-                  target="_blank"
-                >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-twitter" />
-                  </span>
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip475038074">
-                  Follow us
-                </UncontrolledTooltip>
+               
+                
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
@@ -96,30 +61,17 @@ class CardsFooter extends React.Component {
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-facebook-square" />
+                    <i className="fa fa-linkedin-square" />
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
-                  Like us
+                  Hire me!
                 </UncontrolledTooltip>
-                <Button
-                  className="btn-icon-only rounded-circle ml-1"
-                  color="dribbble"
-                  href="https://dribbble.com/creativetim"
-                  id="tooltip829810202"
-                  target="_blank"
-                >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-dribbble" />
-                  </span>
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip829810202">
-                  Follow us
-                </UncontrolledTooltip>
+                
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/yazanbaker94"
                   id="tooltip495507257"
                   target="_blank"
                 >
@@ -138,10 +90,10 @@ class CardsFooter extends React.Component {
                 <div className="copyright">
                   © {new Date().getFullYear()}{" "}
                   <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
+                    href="https://github.com/yazanbaker94/"
                     target="_blank"
                   >
-                    Creative Tim
+                    Yazan Baker
                   </a>
                   .
                 </div>
@@ -150,26 +102,26 @@ class CardsFooter extends React.Component {
                 <Nav className="nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com?ref=adsr-footer"
+                      href="https://www.linkedin.com/in/yazan-baker-417ab0207/"
                       target="_blank"
                     >
-                      Creative Tim
+                      Yazan Baker
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com/presentation?ref=adsr-footer"
+                      href="https://www.linkedin.com/in/yazan-baker-417ab0207/"
                       target="_blank"
                     >
-                      About Us
+                      About me
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="http://blog.creative-tim.com?ref=adsr-footer"
+                      href="https://www.linkedin.com/in/yazan-baker-417ab0207/"
                       target="_blank"
                     >
-                      Blog
+                      License
                     </NavLink>
                   </NavItem>
                   <NavItem>
