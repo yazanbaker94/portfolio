@@ -121,7 +121,7 @@ class CardsFooter extends React.Component {
                       href="https://www.linkedin.com/in/yazan-baker-417ab0207/"
                       target="_blank"
                     >
-                      License
+                      Creative License
                     </NavLink>
                   </NavItem>
                   <NavItem>
